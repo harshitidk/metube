@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: 'Moonlight';
+  src: url("../dist/fonts/Moonlight.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-weight: lighter;
+  background-image: url("../sources/wall.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: white;
+}
+
+.top a:link, .top a:visited {
+  color: none;
+  text-decoration: none;
+  cursor: none;
+}
+
+.top a:link:active, .top a:visited:active {
+  color: none;
+}
+
+.top img {
+  position: absolute;
+  border: 0;
+  height: 90px;
+  position: fixed;
+}
+
+.top img:hover {
+  cursor: pointer;
+}
+
+.top h1 {
+  font-size: 70px;
+  position: relative;
+  top: -50px;
+  color: white;
+  text-shadow: 0px 10px 10px black;
+  font-family: "Alata", sans-serif;
+  font-weight: bold;
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.top h1:hover {
+  text-shadow: 0px 8px 15px #ff2e82;
+  cursor: pointer;
+}
+
+.top h3 {
+  position: relative;
+  font-size: 20pt;
+  top: -60px;
+  color: black;
+  letter-spacing: 2px;
+  padding: 2px 2rem;
+  text-align: center;
+  font-family: "Moonlight";
+  font-weight: lighter;
+}
+
+.sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  border-radius: 50px;
+  margin: 0px 100px;
+}
+/*# sourceMappingURL=index.css.map */

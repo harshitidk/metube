@@ -1,0 +1,97 @@
+@import "variable";
+@import "resets";
+
+body 
+{
+    background-color: black;
+    color: white;
+    font-family: $font1;
+    font-weight: lighter;
+    background-image: url('../sources/wall.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    position: relative;
+    flex-direction: column;
+
+    a
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        outline: white;
+
+    }
+    a:link, a:visited {
+        color: none;
+        text-decoration: none;
+        cursor: none;
+      }
+      
+      a:link:active, a:visited:active {
+        color: none;
+      }
+
+    img 
+    {
+        position: absolute;
+        border: 0;
+        height: 90px;
+        position: fixed;
+        &:hover
+        {
+            cursor: pointer;
+        }
+    }
+
+    h1
+    {
+        font-size: 70px;
+        position: relative;
+        top: -50px;
+        color: white;
+        text-shadow: 0px 10px 10px black;
+        font-family: $font1;
+        font-weight: bold;
+        transition-duration: 600ms;
+        transition-timing-function: ease;
+        letter-spacing: 2px;
+        font-style: italic;
+
+        &:hover
+        {
+            text-shadow: 0px 8px 15px rgb(255, 46, 130);
+            cursor: pointer;
+        }
+    } 
+
+    h3
+    {
+        position: relative;
+        font-size: 20pt;
+        top: -60px;
+        color: black;
+        letter-spacing: 2px;
+        padding: 2px 2rem;
+        text-align: center;
+        font-family: $fontm;
+        font-weight: lighter;
+    }
+}
+
+.sec
+{
+    display: flex;
+    background-color: black;
+    border-radius: 50px;
+    margin: 0px 100px;
+}

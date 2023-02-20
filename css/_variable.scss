@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$font1 : 'Alata', sans-serif;
+$font2 : 'Mukta', sans-serif;
+$font3 : 'Quicksand', sans-serif;
+
+$colord : #060047;
+$color : #B3005E;
+$color1 : #E90064;
+$color2 : #FF5F9E;
+
+
+@font-face {
+    font-family: 'Moonlight';
+    src: url('../dist/fonts/Moonlight.ttf');
+}
+
+$fontm : 'Moonlight';
