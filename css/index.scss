@@ -77,14 +77,14 @@ body
     h3
     {
         position: relative;
-        font-size: 20pt;
+        font-size: 13pt;
         top: -60px;
-        color: black;
+        color: rgb(0, 0, 0);
         letter-spacing: 2px;
         padding: 2px 2rem;
         text-align: center;
-        font-family: $fontm;
-        font-weight: lighter;
+        font-family: $font2;
+        font-style: italic;
     }
 }
 
@@ -94,4 +94,9 @@ body
     background-color: black;
     border-radius: 50px;
     margin: 0px 100px;
+
+    &-choice
+    {
+        color: white;
+    }
 }

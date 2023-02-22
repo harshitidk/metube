@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
-@font-face {
-  font-family: 'Moonlight';
-  src: url("../dist/fonts/Moonlight.ttf");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -91,14 +88,14 @@ body {
 
 .top h3 {
   position: relative;
-  font-size: 20pt;
+  font-size: 13pt;
   top: -60px;
   color: black;
   letter-spacing: 2px;
   padding: 2px 2rem;
   text-align: center;
-  font-family: "Moonlight";
-  font-weight: lighter;
+  font-family: "Mukta", sans-serif;
+  font-style: italic;
 }
 
 .sec {
@@ -108,5 +105,9 @@ body {
   background-color: black;
   border-radius: 50px;
   margin: 0px 100px;
+}
+
+.sec-choice {
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
