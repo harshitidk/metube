@@ -91,12 +91,43 @@ body
 .sec
 {
     display: flex;
-    background-color: black;
-    border-radius: 50px;
+    border-radius: 20px;
     margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
-    &-choice
+    &-bg
     {
-        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &1
+        {
+            background-color: rgba(0, 0, 0, 0.419);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 50px;
+
+            &-text
+            {
+                padding: 80px 150px;
+            }
+        }
     }
+}
+
+.vid 
+{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
